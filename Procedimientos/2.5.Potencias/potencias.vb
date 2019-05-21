@@ -3,7 +3,7 @@ Imports System
 Module potencias
     Sub Main(args As String())
         Console.WriteLine("Hello World!")
-        Dim valor, x As Integer
+        Dim valor As Integer
         Console.WriteLine("Ingrese un valor a elevar: ")
         valor = Console.ReadLine
 

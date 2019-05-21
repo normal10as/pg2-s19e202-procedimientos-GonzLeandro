@@ -7,12 +7,16 @@ Module program
     Sub Main(args As String())
         Dim valor As Decimal
 
-        For i = 1 To 3
-            Console.WriteLine("Ingrese un valor decimal: ")
-            valor = Console.ReadLine
-            Acumulador(valor)
+        Console.Write("Ingrese un valor decimal: ")
+        valor = Console.ReadLine
+        Acumulador(valor)
+        Console.Write("Ingrese un valor decimal: ")
+        valor = Console.ReadLine
+        Acumulador(valor)
+        Console.Write("Ingrese un valor decimal: ")
+        valor = Console.ReadLine
+        Acumulador(valor)
 
-        Next
     End Sub
 
     Sub Acumulador(valor As Decimal)
